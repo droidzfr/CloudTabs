@@ -10,10 +10,10 @@
 - Unlimited session management (within storage limits)
 
 ## Installation
-See [USER_GUIDE_EN.md](USER_GUIDE.md)
+See [USER_GUIDE.md](USER_GUIDE.md)
 
 ## Architecture
-See [TECH_EN.md](TECH.md)
+See [TECH.md](TECH.md)
 
 ## License
 MIT - See [LICENSE](LICENSE)
