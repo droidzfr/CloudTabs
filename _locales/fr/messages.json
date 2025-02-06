@@ -1,0 +1,118 @@
+{
+  "extensionName": {
+    "message": "Cloud Tabs",
+    "description": "Nom de l'extension"
+  },
+  "extensionDescription": {
+    "message": "Synchronisez et gérez vos onglets entre appareils",
+    "description": "Description de l'extension"
+  },
+  "saveButton": {
+    "message": "💾 Enregistrer",
+    "description": "Texte du bouton de sauvegarde"
+  },
+  "savedSessions": {
+    "message": "Sessions sauvegardées",
+    "description": "Titre de la liste des sessions"
+  },
+  "sessionNamePlaceholder": {
+    "message": "Nom de la session",
+    "description": "Texte indicatif pour le champ du nom de session"
+  },
+  "errorTitle": {
+    "message": "Erreur de sauvegarde",
+    "description": "Titre de la modale d'erreur"
+  },
+  "noTabsError": {
+    "message": "Aucun onglet à enregistrer.",
+    "description": "Erreur quand aucun onglet à sauvegarder"
+  },
+  "quotaExceededError": {
+    "message": "La session dépasse la limite de 100 Ko. Vous n'avez plus d'espace disponible. Supprimez des sessions existantes et réessayez.",
+    "description": "Erreur quand la taille de session est dépassée"
+  },
+  "storageFullError": {
+    "message": "Erreur : votre espace de stockage est saturé. Supprimez des sessions pour libérer de l'espace.",
+    "description": "Erreur quand le stockage est plein"
+  },
+  "storageWarning": {
+    "message": "⚠️ Stockage utilisé : $PERCENT$%\nSupprimez d'anciennes sessions pour pouvoir en sauvegarder de nouvelles.",
+    "description": "Message d'avertissement de stockage",
+    "placeholders": {
+      "percent": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteConfirm": {
+    "message": "Supprimer définitivement cette session ?",
+    "description": "Confirmation pour la suppression de session"
+  },
+  "restoreConfirm": {
+    "message": "Restaurer $COUNT$ onglets ?",
+    "description": "Confirmation pour la restauration de session",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "untitledTab": {
+    "message": "Sans titre",
+    "description": "Texte pour les onglets sans titre"
+  },
+  "openTabTitle": {
+    "message": "Ouvrir cet onglet",
+    "description": "Info-bulle pour le bouton d'ouverture d'onglet"
+  },
+  "yesButton": {
+    "message": "Oui",
+    "description": "Bouton oui de la boîte de dialogue"
+  },
+  "noButton": {
+    "message": "Non",
+    "description": "Bouton non de la boîte de dialogue"
+  },
+  "okButton": {
+    "message": "OK",
+    "description": "Bouton ok de la boîte d'erreur"
+  },
+  "defaultSessionName": {
+    "message": "Session $DATE$",
+    "description": "Nom par défaut pour les nouvelles sessions",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "tabsCount": {
+    "message": "$COUNT$ onglets",
+    "description": "Nombre d'onglets dans une session",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "restoreButton": {
+    "message": "↺ Restaurer",
+    "description": "Bouton de restauration de session"
+  },
+  "tabsAndCount": {
+    "message": "$DATE$ - $COUNT$",
+    "description": "Date et nombre d'onglets dans la liste",
+    "placeholders": {
+      "date": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "deleteIcon": {
+    "message": "🗑️",
+    "description": "Icône de suppression"
+  },
+  "arrowIcon": {
+    "message": "↗",
+    "description": "Icône flèche d'ouverture d'onglet"
+  }
+}

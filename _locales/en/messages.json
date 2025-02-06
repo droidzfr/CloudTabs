@@ -1,0 +1,118 @@
+{
+  "extensionName": {
+    "message": "Cloud Tabs",
+    "description": "Extension name"
+  },
+  "extensionDescription": {
+    "message": "Sync and manage browser tabs across devices",
+    "description": "Extension description"
+  },
+  "saveButton": {
+    "message": "💾 Save",
+    "description": "Save button text"
+  },
+  "savedSessions": {
+    "message": "Saved sessions",
+    "description": "Title for saved sessions list"
+  },
+  "sessionNamePlaceholder": {
+    "message": "Session name",
+    "description": "Placeholder for session name input"
+  },
+  "errorTitle": {
+    "message": "Save Error",
+    "description": "Error modal title"
+  },
+  "noTabsError": {
+    "message": "No tabs to save.",
+    "description": "Error when no tabs to save"
+  },
+  "quotaExceededError": {
+    "message": "Session exceeds 100 KB limit. No space available. Delete existing sessions and try again.",
+    "description": "Error when session size exceeded"
+  },
+  "storageFullError": {
+    "message": "Error: storage is full. Delete sessions to free up space.",
+    "description": "Error when storage is full"
+  },
+  "storageWarning": {
+    "message": "⚠️ Storage used: $PERCENT$%\nDelete old sessions to save new ones.",
+    "description": "Storage warning message",
+    "placeholders": {
+      "percent": {
+        "content": "$1"
+      }
+    }
+  },
+  "deleteConfirm": {
+    "message": "Permanently delete this session?",
+    "description": "Confirmation for session deletion"
+  },
+  "restoreConfirm": {
+    "message": "Restore $COUNT$ tabs?",
+    "description": "Confirmation for session restore",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "untitledTab": {
+    "message": "Untitled",
+    "description": "Text for tabs without title"
+  },
+  "openTabTitle": {
+    "message": "Open this tab",
+    "description": "Tooltip for open tab button"
+  },
+  "yesButton": {
+    "message": "Yes",
+    "description": "Confirm dialog yes button"
+  },
+  "noButton": {
+    "message": "No",
+    "description": "Confirm dialog no button"
+  },
+  "okButton": {
+    "message": "OK",
+    "description": "Error dialog ok button"
+  },
+  "defaultSessionName": {
+    "message": "Session $DATE$",
+    "description": "Default name for new sessions",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "tabsCount": {
+    "message": "$COUNT$ tabs",
+    "description": "Number of tabs in a session",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "restoreButton": {
+    "message": "↺ Restore",
+    "description": "Restore session button"
+  },
+  "tabsAndCount": {
+    "message": "$DATE$ - $COUNT$",
+    "description": "Date and number of tabs in list",
+    "placeholders": {
+      "date": { "content": "$1" },
+      "count": { "content": "$2" }
+    }
+  },
+  "deleteIcon": {
+    "message": "🗑️",
+    "description": "Delete icon"
+  },
+  "arrowIcon": {
+    "message": "↗",
+    "description": "Open tab arrow icon"
+  }
+}

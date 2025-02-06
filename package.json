@@ -1,0 +1,11 @@
+{
+  "name": "cloudtabs",
+  "version": "1.0.0",
+  "description": "CloudTabs Extension Builder",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "archiver": "^5.3.1"
+  }
+}

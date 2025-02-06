@@ -1,0 +1,205 @@
+body {
+  width: 320px;
+  padding: 1px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f2f2;
+  color: #333;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  padding: 15px;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 2px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.restore-btn {
+  background: #007bff;
+  color: white;
+}
+
+.restore-btn:hover {
+  background: #0056b3;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #bb2d3b;
+}
+
+.sessions-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.session-item {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.session-item:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.session-header {
+  padding: 10px 12px;
+  background: #f8f9fa;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.session-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 0;
+  color: #333;
+}
+
+.session-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-top: 1px solid #eee;
+  padding-top: 5px;
+}
+
+.session-info {
+  flex: 1;
+  margin: 0;
+}
+
+.session-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.session-actions button {
+  padding: 6px 12px;
+  font-size: 0.9em;
+  border-radius: 4px;
+  margin: 0;
+}
+
+.session-actions {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.session-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background: #fff;
+  padding: 0 12px;
+}
+
+.session-details.open {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.tab-list {
+  padding: 10px 0 12px;
+}
+
+.tab-item {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  margin: 4px 0;
+  background: #f8f9fa;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.tab-item:hover {
+  background: #e9ecef;
+}
+
+.tab-title {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+}
+
+.tab-title:hover::after {
+  content: attr(data-url);
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  background: rgba(0,0,0,0.9);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 3px;
+  font-size: 0.8em;
+  white-space: normal;
+  width: 250px;
+  z-index: 100;
+}
+
+.open-tab-btn {
+  background: none;
+  border: none;
+  color: #6c757d;
+  cursor: pointer;
+  padding: 4px;
+  margin-left: 8px;
+}
+
+.open-tab-btn:hover {
+  color: #007bff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.storage-warning {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ffeeba;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.favicon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
