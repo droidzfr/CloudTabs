@@ -29,6 +29,7 @@ button {
 .restore-btn {
   background: #007bff;
   color: white;
+  height: 30px;
 }
 
 .restore-btn:hover {
@@ -38,6 +39,7 @@ button {
 .delete-btn {
   background: #dc3545;
   color: white;
+  height: 30px;
 }
 
 .delete-btn:hover {

@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
               </div>
               <div class="session-actions">
                 <button class="restore-btn">${chrome.i18n.getMessage('restoreButton')}</button>
-                <button class="delete-btn">${chrome.i18n.getMessage('deleteIcon')}</button>
+                <button class="delete-btn"><img src="../assets/trash.svg" alt="${chrome.i18n.getMessage('deleteIcon')}" /></button>
               </div>
             </div>
           </div>
