@@ -240,25 +240,21 @@ document.addEventListener('DOMContentLoaded', () => {
         const session = sessions[sessionId];
         
         if (session && session.tabs) {
-          const confirmed = await customConfirm(chrome.i18n.getMessage('restoreConfirm', [session.tabs.length]));
-          if (confirmed) {
-            const firstTab = session.tabs[0];
-            const newWindow = await chrome.windows.create({ 
-              url: firstTab.url,
-              focused: true
-            });
-
-            if (session.tabs.length > 1) {
-              await Promise.all(
-                session.tabs.slice(1).map(tab =>
-                  chrome.tabs.create({
-                    url: tab.url,
-                    windowId: newWindow.id,
-                    active: false
-                  })
-                )
-              );
-            }
+          const firstTab = session.tabs[0];
+          const newWindow = await chrome.windows.create({
+            url: firstTab.url,
+            focused: true
+          });
+          if (session.tabs.length > 1) {
+            await Promise.all(
+              session.tabs.slice(1).map(tab =>
+                chrome.tabs.create({
+                  url: tab.url,
+                  windowId: newWindow.id,
+                  active: false
+                })
+              )
+            );
           }
         }
       } catch (error) {
