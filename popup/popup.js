@@ -212,8 +212,9 @@ document.addEventListener('DOMContentLoaded', () => {
   let isRestoring = false;
 
   document.addEventListener('click', async (event) => {
-    if (event.target.classList.contains('delete-btn')) {
-      const sessionItem = event.target.closest('.session-item');
+    const deleteBtn = event.target.closest('.delete-btn');
+    if (deleteBtn) {
+      const sessionItem = deleteBtn.closest('.session-item');
       const sessionId = sessionItem ? sessionItem.dataset.sessionId : undefined;
       const confirmed = await customConfirm(chrome.i18n.getMessage('deleteConfirm'));
       if (confirmed && sessionId) {
